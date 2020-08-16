@@ -15,44 +15,48 @@
 // Индия - 80 кредитов
 // Ямайка - 120 кредитов
 
-let countryName = prompt('Введите страну доставки товара');
-let price = 0;
-countryName = 'КитаЙ';
-const CANCELED_BY_USER = 'Отменено пользователем!';
-const NO_DELIVERY = 'В выбранную страну доставка недоступна.';
-const CHINA = 'Китай';
-const AUSTRALIA = 'Австралия';
-const INDIA = 'Индия';
-const JAMAICA = 'Ямайка';
-let message;
+// let country = prompt('Введите страну доставки товара');
+// let price = 0;
+// ///country = 'КитаЙ';
+// const CANCELED_BY_USER = 'Отменено пользователем!';
+// const NO_DELIVERY = 'В вашей стране доставка не доступна';
+// const CHINA = 'Китай';
+// const AUSTRALIA = 'Австралия';
+// const INDIA = 'Индия';
+// const JAMAICA = 'Ямайка';
+// let message;
 
-if (countryName === null) {
-  console.log((message = CANCELED_BY_USER));
-} else {
-  country = countryName[0].toUpperCase() + countryName.slice(1).toLowerCase();
-  switch (country) {
-    case CHINA:
-      price = 100;
-      break;
+// if (country === null) {
+//   console.log((message = CANCELED_BY_USER));
+// } else {
+//   country = country[0].toUpperCase() + country.slice(1).toLowerCase();
+//   switch (country) {
+//     case CHINA:
+//       price = 100;
+//       break;
 
-    case AUSTRALIA:
-      price = 170;
-      break;
+//     case AUSTRALIA:
+//       price = 170;
+//       break;
 
-    case INDIA:
-      price = 80;
-      break;
+//     case INDIA:
+//       price = 80;
+//       break;
 
-    case JAMAICA:
-      price = 120;
-      break;
+//     case JAMAICA:
+//       price = 120;
+//       break;
 
-    default:
-      NO_DELIVERY;
-  }
-}
+//     default:
+//       alert(NO_DELIVERY);
+//   }
+// }
 
-console.log(price);
+// if (price > 0) {
+//   console.log(
+//     (message = `Доставка в ${country} будет стоить ${price} кредитов`),
+//   );
+// }
 
 // Задача 1 - 5
 // Использование switch, if и методов slice, toUpperCase, toLowerCase
