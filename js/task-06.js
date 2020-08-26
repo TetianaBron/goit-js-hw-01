@@ -28,26 +28,3 @@
 //   total += input;
 // } while (input);
 // alert(`Общая сумма чисел равна ${total}`);
-
-//Цикл for
-// for (let i = 1; i < 5; i += 1) {
-//   console.log(i);
-// }
-
-// Цикл while
-// let counter = 0;
-
-// while (counter < 10) {
-//   console.log('counter: ', counter);
-//   counter += 1;
-// }
-
-// Цикл do...while
-
-//     let password = '';
-
-// do {
-//     password = prompt('Введите пароль длиннее 4-х символов', '');
-// } while (password.length < 5);
-
-// console.log('Ввели пароль: ', password);
